@@ -1,0 +1,58 @@
+/**
+*/
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: url("https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8&w=1000&q=80");
+  /*background-image: url();
+  background-size: cover;*/
+  
+  text-shadow: 2px 2px black;
+  display: grid;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  grid-template-columns: 100px 200px;
+  grid-template-rows: auto auto auto auto auto auto;
+}
+
+
+
+#calculator {
+  display: grid;
+  grid-template-columns: 300px 200px;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-column: 2 / span 3;
+  grid-row: 2;
+  row-gap: 15px;
+  column-gap: 10px;
+  padding: 10px;
+  font-size: 22;
+  background-color: pink;
+  color: white;
+  transition-property: color;
+  transition-duration: .5s;
+}
+
+#calculator:hover {
+  color:greenyellow;
+}
+
+
+
+h1 {
+  grid-column: 1 / span 5;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.486);
+  color: white;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: dotted;
+
+  font-size: 36px;
+  transition-property: color;
+  transition-duration: .5s;
+}
+
+h1:hover {
+  color:greenyellow;
+}
